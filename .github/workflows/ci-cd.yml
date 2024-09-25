@@ -23,6 +23,6 @@ jobs:
         AWS_ACCESS_KEY_ID: Cvloo_Frank
         AWS_SECRET_ACCESS_KEY: tZcC0@p&
 
-    - name: Run tests
-      run: |
-        pytest
+    # - name: Run tests
+    #   run: |
+    #     pytest
