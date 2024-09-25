@@ -16,12 +16,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
 
-    - name: Deploy to AWS S3
-      run: |
-        aws s3 sync ./dist s3://your-s3-bucket --delete
-      env:
-        AWS_ACCESS_KEY_ID: Cvloo_Frank
-        AWS_SECRET_ACCESS_KEY: tZcC0@p&
+    # - name: Deploy to AWS S3
+    #   run: |
+    #     aws s3 sync ./dist s3://your-s3-bucket --delete
+    #   env:
+    #     AWS_ACCESS_KEY_ID: Cvloo_Frank
+    #     AWS_SECRET_ACCESS_KEY: tZcC0@p&
 
     # - name: Run tests
     #   run: |
